@@ -1,5 +1,4 @@
 import ijson
-import time
 
 class dataset_from_path_list:
     def __init__(self, datapathlist):
