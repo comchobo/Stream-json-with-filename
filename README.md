@@ -13,18 +13,18 @@ returns iterable.
 if filepath1 contains [['hello'], ['my']] and filepath2 contains [['name'], ['is']],
 then following code
 
-'''
+```
 iterable = dataset_from_path_list([filepath1, filepath2])
 iterable.__iter__()
 iterable.__next__()
 iterable.__next__()
 iterable.__next__()
-'''
+```
 
 will return :
 
-'''
+```
 ['hello']
 ['my']
 ['name']
-'''
+```
